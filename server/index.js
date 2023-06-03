@@ -1,5 +1,5 @@
 const express = require("express");
-const generateNews = require("./generateNews");
+const generateNews = require("./routes/generateNews");
 const cors = require("cors");
 
 const app = express();
