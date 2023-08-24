@@ -4,7 +4,7 @@ import { NewsContextProvider } from "../contexts/NewsContext";
 import Navbar from "./components/Navbar";
 import NewsPage from "./components/News";
 
-const API_BASE_URL ="https://astro-news.vercel.app/"
+const API_BASE_URL ="https://astro-news.vercel.app"
 
 const App = () => {
   const [newsItems, setNewsItems] = useState([]);
