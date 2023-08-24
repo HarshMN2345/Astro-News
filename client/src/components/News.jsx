@@ -26,9 +26,9 @@ const NewsPage = () => {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="flex flex-col items-center mb-7">
         <h1 className="text-5xl font-bold mb-2 text-gray-900">
-          <span className="text-amber-400">किसान</span>समाचार 
+          <span className="text-amber-400">ASTRO</span>भारत
         </h1>
-        <div className="w-20 h-1 bg-amber-900 mb-8"></div>
+        <div className="w-20 h-1 bg-blue-900 mb-8"></div>
       </div>
 
       {isLoading ? (

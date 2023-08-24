@@ -7,15 +7,16 @@ const rssCache = new NodeCache();
 async function generateNews() {
   // An array of URLs for websites that provide RSS feeds
   const urls = [
-    "https://timesofindia.indiatimes.com/rssfeeds/2647163.cms", // Times of India - Agriculture News
-    "https://economictimes.indiatimes.com/rssfeeds/12006559.cms", // Economic Times - Agriculture News
-    "https://www.thehindubusinessline.com/news/variety/agri-business/?service=rss", // The Hindu Business Line - Agri-Business News
-    "https://www.thehindubusinessline.com/economy/agri-business/?service=rss", // The Hindu Business Line - Economy Agri-Business News
-    "https://www.ndtv.com/rss/india/agriculture", // NDTV - Agriculture News
-    "https://www.agricultureworld.in/rss-feed.xml", // Agriculture World - News Feed
-    "https://www.fnbnews.com/rss/newssector/4", // Food & Beverage News - Agriculture Sector
-    "https://www.fnbnews.com/rss/newssector/16", // Food & Beverage News - Dairy Sector
-    "https://www.fnbnews.com/rss/newssector/1", // Food & Beverage News - Foodgrains & Oilseeds Sector
+    "https://timesofindia.indiatimes.com/rssfeeds/-2128672765.cms", // Times of India - Space News
+    "https://economictimes.indiatimes.com/news/science/rssfeeds/39872847.cms",
+    "http://rss.cnn.com/rss/edition_space.rss", // Economic Times - Space News
+    "https://www.nasa.gov/rss/dyn/breaking_news.rss", // NASA Breaking News
+    "https://spacenews.com/feed/", // SpaceNews
+    "https://www.space.com/feeds/all", // Space.com
+    "https://www.esa.int/Services/RSS", // European Space Agency (ESA) News
+    "https://www.isro.gov.in/update/rss.xml", // ISRO News
+    "https://www.spaceflightnow.com/feed/", // Spaceflight Now
+    // Add more URLs for space news sources
   ];
   
 

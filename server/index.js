@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
   res.send({
-    message: "This is the team Uppermoons",
+    message: "This is the team Space_Invaders",
   });
 });
 
