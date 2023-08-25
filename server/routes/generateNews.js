@@ -11,7 +11,8 @@ async function generateNews() {
     "https://economictimes.indiatimes.com/news/science/rssfeeds/39872847.cms",
     "http://rss.cnn.com/rss/edition_space.rss", // Economic Times - Space News
     "https://www.nasa.gov/rss/dyn/breaking_news.rss", // NASA Breaking News
-    "https://spacenews.com/feed/", // SpaceNews
+    "https://spacenews.com/feed/",
+    "https://mosdac.gov.in/isrocast.xml",// SpaceNews
     "https://www.space.com/feeds/all", // Space.com
     "https://www.esa.int/Services/RSS", // European Space Agency (ESA) News
     "https://www.isro.gov.in/update/rss.xml", // ISRO News
